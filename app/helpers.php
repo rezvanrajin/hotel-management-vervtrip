@@ -1,24 +1,10 @@
 <?php
 
-use App\Mail\EmailNotification;
-use App\Mail\SendOtp;
-use App\Models\CustomOption;
-use App\Models\Notification;
-use App\Models\Order;
-use App\Models\OrderTruck;
-use App\Models\OrderTruckDriver;
-use App\Models\Truck;
-use Illuminate\Http\Request;
+
 use App\Models\Right;
 use App\Models\RoleRight;
 use App\Models\Setting;
-use App\Models\Otp;
-use App\Models\Translation;
 use App\Models\User;
-use Carbon\Carbon;
-use GuzzleHttp\Client;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 
 class Helper
