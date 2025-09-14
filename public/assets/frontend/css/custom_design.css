@@ -1,0 +1,206 @@
+/* Research Keyword Circle Setup */
+.research-keyword-section .circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* background-color: #000; */
+    color: #fff;
+}
+.research-keyword-section .outer-circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid #60951391;
+    border-radius: 50.863px;
+    border: 10.899px solid #287128;
+    /* border-image-source: linear-gradient(to right, #ff7b7b, #ffb27b, #ffff7b, #b2ff7b, #7bffb2, #7bffff, #7bb2ff, #b27bff, #ff7bff); */
+}
+.research-keyword-section .circle {
+    position: relative;
+    top: 25px;
+    padding: 15px;
+    margin: 0 20px;
+    /* width: 300px;
+    height: 300px; */
+    border-radius: 50%;
+    border: 6px solid #609513b8;
+    border-radius: 50.863px;
+    border: 10.899px solid #287128;
+    border-image-slice: 1;
+    /* border-image-source: linear-gradient(to right, #ff7b7b, #ffb27b, #ffff7b, #b2ff7b, #7bffb2, #7bffff, #7bb2ff, #b27bff, #ff7bff); */
+}
+
+.research-keyword-section .circle-inner h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.research-keyword-section .circle-inner p {
+    margin: 0.5rem 0;
+    color: #fff;
+}
+.title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.title h2 {
+    background: linear-gradient(
+        to right,
+        #ff7b7b,
+        #ffb27b,
+        #ffff7b,
+        #b2ff7b,
+        #7bffb2,
+        #7bffff,
+        #7bb2ff,
+        #b27bff,
+        #ff7bff
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+
+/* Steps Apply Card Section */
+.easy-solution-cards .solution-card .card {
+    background-color: #337633;
+    border: 1px solid #fff;
+}
+
+/* .solution-card .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.icon-box,
+.icon-serial {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.icon-box {
+    background-color: #f5f5f5; 
+} */
+
+.icon-serial {
+}
+
+.easy-solution-cards .row::before {
+    /* content: ''; */
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 2px;
+    background-color: #ccc;
+    z-index: -1;
+}
+
+.easy-solution-cards .solution-card {
+    position: relative;
+    z-index: 1;
+}
+
+.easy-solution-cards .solution-card:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 60px;
+    height: 20px;
+    /* background-color: #ccc; */
+    /* transform: translate(-50%, -50%) rotate(45deg); */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* Service Section */
+.service-section .container .our-service {
+    /* height: 420px; */
+    /* max-height: 70vh; */
+}
+
+/* Seminar Section */
+.seminar-image-banner {
+    border: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
+}
+.seminar-image-banner:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.02);
+}
+
+.seminar-card__eventtxt .eventtxt_title {
+    font-size: 12px !important;
+}
+.seminar-card__researchtxt .researchtxt_title {
+    font-size: 12px !important;
+}
+
+/* Gallary Image */
+.image-cover {
+    width: 100%;
+    height: 180px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.3s ease-in-out;
+}
+.image-cover:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.02);
+}
+
+.galary-preview__rows .preview-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.galary-preview__rows .card-body:hover .preview-btn {
+    opacity: 1;
+}
+.galary-preview__rows .card-body {
+    position: relative;
+    overflow: hidden;
+}
+.galary-preview__modal .modal-dialog {
+    max-width: 80%;
+}
+.galary-preview__modal .modal-header {
+    border-bottom: none;
+}
+.galary-preview__modal .modal-header .close {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+

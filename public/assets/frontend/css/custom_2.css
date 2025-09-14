@@ -1,0 +1,35 @@
+.research-section .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.research-section .image-container {
+
+    overflow: hidden;
+}
+
+.research-section .image-container img {
+    width: 100%;
+    object-fit: cover;
+    background: #d8d8d8;
+}
+
+.research-section .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem; /* Adjust padding as needed */
+}
+
+.research-section .card-title {
+   font-size:14px;
+}
+
+.research-section .card-text {
+    margin-bottom: 1rem;
+}
+.event-card-title {
+    font-weight: 700;
+    /* color: #609513 !important; */
+}
