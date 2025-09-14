@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
-use App\Models\EquipmentApproved;
+use App\Models\Approved;
 use App\Models\Job;
 use App\Models\JobParticipant;
 use App\Models\Order;

@@ -1,44 +1,19 @@
 <?php
 
-use App\Models\JobParticipant;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ContractController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\Backend\JobController;
-use App\Http\Controllers\Backend\ItemController;
 use App\Http\Controllers\Backend\RoleController;
 use App\Http\Controllers\Backend\UserController;
-use App\Http\Controllers\Backend\EventController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\RoomController;
 use App\Http\Controllers\Backend\SettingController;
-use App\Http\Controllers\Backend\WorkflowController;
 use App\Http\Controllers\Frontend\BookingController;
 use App\Http\Controllers\Backend\DashboardController;
 use App\Http\Controllers\Backend\HoteRoomlController;
-use App\Http\Controllers\Backend\ItemStockController;
-use App\Http\Controllers\Frontend\FrontendController;
-use App\Http\Controllers\Backend\EquipmentsController;
-use App\Http\Controllers\Backend\MaintancesController;
-use App\Http\Controllers\Backend\PreferenceController;
 use App\Http\Controllers\Backend\BookingRoomController;
-use App\Http\Controllers\Backend\JobReviewrsController;
-use App\Http\Controllers\Backend\MaintenanceController;
-use App\Http\Controllers\Backend\ParticipantController;
-use App\Http\Controllers\Backend\RequisitionController;
-use App\Http\Controllers\Backend\ItemCategoryController;
-use App\Http\Controllers\Backend\CallForNoticeController;
-use App\Http\Controllers\Backend\CustomOptionsController;
-use App\Http\Controllers\Backend\WorkflowSetupController;
-use App\Http\Controllers\Backend\JobCustomOptionController;
 use App\Http\Controllers\Backend\LandingPageSetupController;
-use App\Http\Controllers\Backend\JobCustomOptionsSetupController;
-use App\Http\Controllers\Backend\JobParticipantDetailsController;
-use App\Http\Controllers\Frontend\JobController as FrontendJobController;
-use App\Http\Controllers\Frontend\EventController as FrontendEventController;
-
 
 // Frontend Routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
