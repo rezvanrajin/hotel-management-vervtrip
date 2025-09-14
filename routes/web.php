@@ -78,7 +78,6 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
         Route::get('/{id}', [UserController::class, 'userDetails'])->name('admin.user.details');
         Route::get('/details/get/list', [UserController::class, 'getDetailList']);
 
-        Route::get('/ajax/change/region', [UserController::class, 'ajaxChangeRegion'])->name('ajax.change.region');
     });
 
     //  role routes
